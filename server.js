@@ -32,7 +32,6 @@ app.use(cors());
 
 app.use('/videos', videoRoutes);
 
-
 // Initialize AWS S3 Client (SDK v3)
 // const s3Client = new S3Client({
 //   region: process.env.AWS_REGION,
